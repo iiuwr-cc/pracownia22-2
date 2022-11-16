@@ -16,9 +16,10 @@ module Plugin : PLUGIN = struct
   let make_scheduler = None
   let make_natural_loops_analysis = None
   let make_spill_costs_analysis = None
+
+  (* Możesz użyć własnego leksera i parsera zamieniając poniższą linię na
+     let lexer_and_parser = Some (module LexerAndParser : LEXER_AND_PARSER) *)
   let lexer_and_parser = None
-  (* Możesz użyć własnego leksera i parsera zamieniając powyższą linię na
-  let lexer_and_parser = Some (module LexerAndParser : LEXER_AND_PARSER) *)
   let make_interface_checker = None
   let make_typechecker = Some (module Typechecker.Make : MAKE_TYPECHECKER)
   let make_translator = None
