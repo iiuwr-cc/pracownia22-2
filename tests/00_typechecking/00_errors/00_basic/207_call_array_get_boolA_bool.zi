@@ -1,0 +1,8 @@
+consumer(dst:bool) { }
+test(src:bool[][])
+{
+  consumer(src[0])
+}
+//@PRACOWNIA
+//@stop_after typechecker
+//@should_not_typecheck

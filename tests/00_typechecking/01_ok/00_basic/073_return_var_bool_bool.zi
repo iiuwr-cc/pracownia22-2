@@ -1,0 +1,7 @@
+test():bool
+{
+  src:bool
+  return src
+}
+//@PRACOWNIA
+//@stop_after typechecker

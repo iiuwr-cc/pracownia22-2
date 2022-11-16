@@ -1,0 +1,4 @@
+type foo = { x: bar }
+
+//@PRACOWNIA
+//@should_not_typecheck

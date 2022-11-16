@@ -1,0 +1,9 @@
+test()
+{
+    if true or false {
+    } else {
+    }
+}
+
+//@PRACOWNIA
+//@stop_after typechecker

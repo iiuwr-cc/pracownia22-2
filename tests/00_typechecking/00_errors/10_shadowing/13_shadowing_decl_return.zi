@@ -1,0 +1,5 @@
+f(x:int) { }
+f(x:int) : int { return 5 }
+
+//@PRACOWNIA
+//@should_not_typecheck

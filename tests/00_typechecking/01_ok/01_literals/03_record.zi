@@ -1,0 +1,13 @@
+test()
+{
+    x: {foo : int, bar: bool[]} = {foo = 3 + 4, bar = { }} 
+    x.foo = 7;
+    x.bar = { true, false }
+    y: int = x.foo;
+    z: bool[] = x.bar;
+
+    x.bar[7] = true;
+}
+
+//@PRACOWNIA
+//@stop_after typechecker

@@ -1,0 +1,6 @@
+test(dst:bool[], src:bool)
+{
+  dst[0] = src
+}
+//@PRACOWNIA
+//@stop_after typechecker

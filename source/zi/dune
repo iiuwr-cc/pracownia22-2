@@ -1,0 +1,15 @@
+(executable 
+    (name zi)
+    (public_name zi)
+    (modes byte)
+    (libraries cmdliner ocamlgraph unix zi_lib dynlink)
+    (package zi)
+)
+(env
+    (dev
+        (flags (:standard -g -w -39-33-26-27))
+    )
+    (release
+        (flags (:standard -w -39-33-26-27))
+    )
+)

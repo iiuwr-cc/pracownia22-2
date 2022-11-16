@@ -1,0 +1,6 @@
+test(src:bool[]):bool[]
+{
+  return src
+}
+//@PRACOWNIA
+//@stop_after typechecker

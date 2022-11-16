@@ -1,0 +1,7 @@
+producer() : bool[] { return { true } }
+test()
+{
+  dst:bool[] = producer()
+}
+//@PRACOWNIA
+//@stop_after typechecker

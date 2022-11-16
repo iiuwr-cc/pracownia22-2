@@ -1,0 +1,4 @@
+type abs
+type myInt = int
+
+quux(x: myInt)

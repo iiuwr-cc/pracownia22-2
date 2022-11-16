@@ -1,0 +1,7 @@
+producer() : int[] { return { 42 } }
+test()
+{
+  dst:int[] = producer()
+}
+//@PRACOWNIA
+//@stop_after typechecker

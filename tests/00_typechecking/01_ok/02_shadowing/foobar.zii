@@ -1,0 +1,2 @@
+foo(x: int): bool
+bar(r:{x:int})

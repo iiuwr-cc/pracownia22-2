@@ -1,0 +1,7 @@
+use types
+
+bar(x:abs): abs
+  return abs(x^)
+
+//@PRACOWNIA
+//@should_not_typecheck

@@ -1,0 +1,6 @@
+test(dst:bool, src:bool):bool
+{
+  return dst or src
+}
+//@PRACOWNIA
+//@stop_after typechecker

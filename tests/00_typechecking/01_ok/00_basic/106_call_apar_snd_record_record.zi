@@ -1,0 +1,7 @@
+consumer(x:int, dst:{ foo : int, bar : bool[] }) { }
+test(src:{ foo : int, bar : bool[] })
+{
+  consumer(42, src)
+}
+//@PRACOWNIA
+//@stop_after typechecker

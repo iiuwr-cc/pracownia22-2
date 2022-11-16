@@ -1,0 +1,7 @@
+test(dst:int, src:bool[]):bool
+{
+  return dst and src
+}
+//@PRACOWNIA
+//@stop_after typechecker
+//@should_not_typecheck

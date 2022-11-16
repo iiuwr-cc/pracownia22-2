@@ -1,0 +1,5 @@
+main() {
+  x : foo
+}
+//@PRACOWNIA
+//@should_not_typecheck

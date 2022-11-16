@@ -1,0 +1,5 @@
+f(x:int) : int { return 5 }
+f(x:int) : bool {  return true }
+
+//@PRACOWNIA
+//@should_not_typecheck

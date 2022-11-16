@@ -1,0 +1,7 @@
+test():{ foo : int, bar : bool[] }
+{
+  src:{ foo : int, bar : bool[] }
+  return src
+}
+//@PRACOWNIA
+//@stop_after typechecker

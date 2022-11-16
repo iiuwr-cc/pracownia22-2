@@ -1,0 +1,7 @@
+test(dst:int[], src:bool[][])
+{
+  dst = src
+}
+//@PRACOWNIA
+//@stop_after typechecker
+//@should_not_typecheck

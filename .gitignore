@@ -1,0 +1,9 @@
+**/.merlin
+_build
+_distrib
+zilog
+tmp
+workdir
+*.s
+*.install
+**/.vscode

@@ -1,0 +1,8 @@
+use types
+
+type myInt = int
+type abs = bool
+
+//@PRACOWNIA
+//@stop_after typechecker
+

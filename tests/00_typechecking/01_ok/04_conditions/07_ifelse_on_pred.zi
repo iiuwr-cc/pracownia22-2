@@ -1,0 +1,10 @@
+pred():bool { return true }
+test()
+{
+    if pred() {
+    } else {
+    }
+}
+
+//@PRACOWNIA
+//@stop_after typechecker

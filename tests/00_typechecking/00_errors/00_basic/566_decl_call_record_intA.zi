@@ -1,0 +1,8 @@
+producer() : int[] { return { 42 } }
+test()
+{
+  dst:{ foo : int, bar : bool[] } = producer()
+}
+//@PRACOWNIA
+//@stop_after typechecker
+//@should_not_typecheck

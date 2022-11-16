@@ -1,0 +1,11 @@
+use io
+
+main():int
+{
+    printString("Wrocław")
+    return 0
+}
+
+//@PRACOWNIA
+//@out Wrocław
+//@out Exit code: 0

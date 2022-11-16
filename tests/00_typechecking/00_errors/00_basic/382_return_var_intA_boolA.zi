@@ -1,0 +1,8 @@
+test():int[]
+{
+  src:bool[]
+  return src
+}
+//@PRACOWNIA
+//@stop_after typechecker
+//@should_not_typecheck

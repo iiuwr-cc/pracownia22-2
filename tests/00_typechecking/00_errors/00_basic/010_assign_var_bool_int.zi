@@ -1,0 +1,9 @@
+test()
+{
+  src:int
+  dst:bool
+  dst = src
+}
+//@PRACOWNIA
+//@stop_after typechecker
+//@should_not_typecheck

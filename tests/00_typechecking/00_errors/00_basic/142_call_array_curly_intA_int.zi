@@ -1,0 +1,8 @@
+consumer(dst:int[][]) { }
+test(src:int)
+{
+  consumer({src})
+}
+//@PRACOWNIA
+//@stop_after typechecker
+//@should_not_typecheck

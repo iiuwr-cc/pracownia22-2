@@ -1,0 +1,3 @@
+printString(s : int[])
+
+printInt(x : int)

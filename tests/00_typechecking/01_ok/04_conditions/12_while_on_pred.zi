@@ -1,0 +1,9 @@
+pred():bool { return true }
+test()
+{
+    while pred() {
+    }
+}
+
+//@PRACOWNIA
+//@stop_after typechecker

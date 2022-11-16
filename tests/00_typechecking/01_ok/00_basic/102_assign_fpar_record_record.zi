@@ -1,0 +1,7 @@
+test(src:{ foo : int, bar : bool[] })
+{
+  dst:{ foo : int, bar : bool[] }
+  dst = src
+}
+//@PRACOWNIA
+//@stop_after typechecker

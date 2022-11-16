@@ -1,0 +1,5 @@
+type abs
+
+type myInt = int
+
+foobar(x:int)

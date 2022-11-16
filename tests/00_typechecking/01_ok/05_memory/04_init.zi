@@ -1,0 +1,6 @@
+test()
+{
+    a:int[][24];
+}
+//@PRACOWNIA
+//@stop_after typechecker

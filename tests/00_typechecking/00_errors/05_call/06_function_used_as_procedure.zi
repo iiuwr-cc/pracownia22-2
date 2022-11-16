@@ -1,0 +1,11 @@
+f():int {
+    return 42
+}
+
+g()
+{
+    f()
+}
+
+//@PRACOWNIA
+//@should_not_typecheck

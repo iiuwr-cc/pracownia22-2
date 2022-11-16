@@ -1,0 +1,8 @@
+main(foo : { x : int, y : bool }) : { arr : bool[] } {
+  a : { a : int, b : bool }
+  a.a = foo.x
+  a.b = foo.y
+  return { arr = {} }
+}
+//@PRACOWNIA
+//@stop_after_typechecker

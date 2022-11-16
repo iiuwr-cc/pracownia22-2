@@ -1,0 +1,6 @@
+main() {
+  p : { x : int, y : int }
+  py : bool = p.y
+}
+//@PRACOWNIA
+//@should_not_typecheck

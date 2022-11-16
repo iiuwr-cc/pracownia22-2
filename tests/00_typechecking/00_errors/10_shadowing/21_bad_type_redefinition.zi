@@ -1,0 +1,6 @@
+use types
+
+type myInt = bool
+
+//@PRACOWNIA
+//@should_not_typecheck

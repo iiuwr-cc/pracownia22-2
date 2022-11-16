@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Check style",
+      "setup": ".github/opam-own.sh",
+      "run": ".github/ocamlformat.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Run tests",
+      "setup": ".github/opam-make.sh",
+      "run": ".github/opam-test.sh tests",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}

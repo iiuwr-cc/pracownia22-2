@@ -1,0 +1,14 @@
+foo(x: abs): {x:abs}
+  return {x=x}
+
+bar(r: myInt): int
+  return r^
+
+baz(x: int)
+  quux(myInt(x))
+
+use types
+
+//@PRACOWNIA
+//@stop_after typechecker
+

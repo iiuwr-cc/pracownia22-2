@@ -1,0 +1,6 @@
+foo() : {x: int, y: bool} {
+  return {x=42, y=true, z=13};
+}
+
+//@PRACOWNIA
+//@should_not_typecheck

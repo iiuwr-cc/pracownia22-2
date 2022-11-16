@@ -1,0 +1,7 @@
+consumer(dst:bool) { }
+test(src:bool)
+{
+  consumer(src)
+}
+//@PRACOWNIA
+//@stop_after typechecker

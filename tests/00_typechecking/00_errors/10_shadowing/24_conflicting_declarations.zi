@@ -1,0 +1,5 @@
+use types
+use types2
+
+//@PRACOWNIA
+//@should_not_typecheck

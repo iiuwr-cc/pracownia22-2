@@ -1,0 +1,8 @@
+consumer(x:int, dst:bool[]) { }
+test(src:bool)
+{
+  consumer(42, src)
+}
+//@PRACOWNIA
+//@stop_after typechecker
+//@should_not_typecheck

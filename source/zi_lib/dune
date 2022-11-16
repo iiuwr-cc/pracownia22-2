@@ -1,0 +1,9 @@
+(library
+    (name zi_lib)
+    (public_name zi_lib)
+    (libraries ocamlgraph )
+    (modes byte)
+    ; Flaga -linkall potrzebna aby program `zi` był skonsolidowany ze wszystkimi
+    ; plikami znajdującymi się w zi_lib.cma, to jest w tej bibliotece. 
+    (library_flags (-linkall))
+)

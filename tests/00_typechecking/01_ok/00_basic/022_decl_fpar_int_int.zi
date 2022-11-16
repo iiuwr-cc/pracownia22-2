@@ -1,0 +1,6 @@
+test(src:int)
+{
+  dst:int = src
+}
+//@PRACOWNIA
+//@stop_after typechecker

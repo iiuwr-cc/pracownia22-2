@@ -1,0 +1,7 @@
+type foo = int
+
+main(y : foo) {
+  x : bool = y^
+}
+//@PRACOWNIA
+//@should_not_typecheck

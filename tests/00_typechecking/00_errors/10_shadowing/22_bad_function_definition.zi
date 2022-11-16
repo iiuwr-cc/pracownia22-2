@@ -1,0 +1,6 @@
+use types
+
+foobar(x:int) { }
+
+//@PRACOWNIA
+//@should_not_typecheck

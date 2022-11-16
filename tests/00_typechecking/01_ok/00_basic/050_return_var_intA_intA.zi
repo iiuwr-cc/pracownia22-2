@@ -1,0 +1,7 @@
+test():int[]
+{
+  src:int[]
+  return src
+}
+//@PRACOWNIA
+//@stop_after typechecker

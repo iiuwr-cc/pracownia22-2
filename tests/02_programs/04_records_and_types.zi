@@ -1,0 +1,16 @@
+type graph = { nodes : int, edges : int[][] }
+
+main() : int {
+  edges : int[][] = { { 1, 2}, { 0 }, { 0 } }
+  nodes : int = 3
+  g : graph = graph({ nodes = nodes, edges = edges })
+  i : int = 0
+  t : int = 0
+  while (i < nodes) {
+    t = t + length(g^.edges[i])
+    i = i + 1
+  }
+  return t / 2
+}
+//@PRACOWNIA
+//@out Exit code: 2

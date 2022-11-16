@@ -1,0 +1,6 @@
+test(dst:int[][], src:int[])
+{
+  dst = { { src }[0] }
+}
+//@PRACOWNIA
+//@stop_after typechecker
