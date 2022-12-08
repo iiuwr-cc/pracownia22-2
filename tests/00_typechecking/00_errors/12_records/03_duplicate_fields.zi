@@ -1,0 +1,4 @@
+foo(r:{x:int, x:int}) {}
+
+//@PRACOWNIA
+//@should_not_typecheck
