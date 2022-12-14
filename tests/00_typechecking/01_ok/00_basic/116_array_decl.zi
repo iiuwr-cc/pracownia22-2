@@ -1,0 +1,14 @@
+test()
+{
+  xs:int[][5][7];
+  xs[0][1][2] = 7;
+  xs[0][2] = {};
+  xs[0] = {{}, {}};
+
+  a:int[][][] = xs;
+  b:int[][] = xs[1]
+  c:int[] = xs[1][2];
+  d:int = xs[1][2][3];
+}
+//@PRACOWNIA
+//@stop_after typechecker

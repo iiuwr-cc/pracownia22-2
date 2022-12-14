@@ -1,0 +1,7 @@
+test()
+{
+    a:int[][5][7];
+    a[0] = 7;
+}
+//@PRACOWNIA
+//@should_not_typecheck
